@@ -2,6 +2,8 @@
 
 > 版本 **0.1.0** · 单文件 exe 约 21 MB · Windows 7+
 
+**[⬇ 下载 BMCLAPIDownloader.exe](https://github.com/imgjx/BMCLAPIDownloader/releases/latest)**
+
 基于 [BMCLAPI](https://bmclapidoc.bangbang93.com/) 的 Minecraft 下载工具，纯 Python + PyQt5，
 替代已经跑路的 PCL2 下载功能。国内网络友好（镜像加速 + 自动回退官方源）。
 
@@ -32,6 +34,12 @@
 - **顺手做的事**：往 `launcher_profiles.json` 写一条 profile，官方启动器也能直接看到新版本
 
 ## 界面
+
+![主界面](preview/01-download.png)
+
+![安装进度](preview/03-progress.png)
+
+![设置](preview/02-settings.png)
 
 - 无边框深色窗口，圆角卡片、渐变强调色、自绘等距草方块图标
 - 尺寸自适应：按屏幕可用区域决定初始大小并居中，最小尺寸跟随屏幕缩放；
