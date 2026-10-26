@@ -1,0 +1,35 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 构建产物 ----
+build/
+build-debug/
+dist/
+dist-debug/
+wheels/
+build_debug.spec
+*.manifest
+
+# ---- 临时 / 日志 ----
+*.log
+preview/tmp/
+preview/size-*.png
+tools/_cleanup.py
+tools/probe*.py
+tools/check_window.py
+
+# ---- 本地私密 ----
+.secrets/
+.env
+.env.*
+*.pem
+*.key
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
